@@ -90,7 +90,17 @@ width: 90%;
 
 .showcase_left h1{
 font-size: 46px;
-font-weight: 900;
+font-weight: 800;
+line-height: 62px;
+color: $zero;
+}
+}
+
+@media(max-width:400px){
+    
+.showcase_left h1{
+font-size: 42px;
+font-weight: 700;
 line-height: 62px;
 color: $zero;
 }

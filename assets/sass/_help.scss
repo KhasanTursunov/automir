@@ -98,3 +98,27 @@ color: $zero;
         display: none;
     }
 }
+
+@media(max-width:400px){
+    .help_title h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+color: $zero;
+}
+
+.help_card{
+    width: 411px;
+height: 264px;
+border-radius: 20px;
+background-color: $f;
+padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    transition: 0.2s linear;
+}
+}
