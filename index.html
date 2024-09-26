@@ -847,6 +847,63 @@
             </div>
         </section>
 
+        <section class="more">
+            <div class="container">
+                <div class="more_text">
+                    <h3>Более 200 автомобилей привезено за 2022</h3>
+                    <div class="more_inside_div">
+                        <div class="inside_inside">
+                            <p>Проверяем всю историю обслуживания, владения 
+                           и ДТП с помощью платных сервисов, созданных 
+                           для профессиональных продавцов автомобилей.</p>
+                        </div>
+
+                        <div class="inside_inside2">
+                            <h4>Мы помогли сэкономить клиентам около <span class="it_is_red"> 240 000 000 ₽ </span> </h4>
+                        </div>
+
+                    </div>
+                    <button class="more_btn" type="button">Оставить заявку</button>
+
+                </div>
+
+
+                <div class="more_swippers">
+     
+                    <div class="div_for_img">
+                        <img src="./svg/b1.svg" alt="">
+                    </div>
+     
+                    <div class="div_for_img">
+                        <img src="./svg/b2.svg" alt="">
+                    </div>
+     
+                    <div class="div_for_img">
+                        <img src="./svg/b3.svg" alt="">
+                    </div>
+     
+                  
+<!--      
+                    <div class="div_for_img">
+                        <img src="./svg/b1.svg" alt="">
+                    </div>
+     
+                    <div class="div_for_img">
+                        <img src="./svg/b2.svg" alt="">
+                    </div>
+     
+                    <div class="div_for_img">
+                        <img src="./svg/b3.svg" alt="">
+                    </div>
+      -->
+
+
+                </div>
+
+
+            </div>
+        </section>
+
     </main>
 
 
@@ -876,6 +933,39 @@
     //   },
       pagination: {
         el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
+
+ <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        
+      },
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
       },
     });
   </script>
