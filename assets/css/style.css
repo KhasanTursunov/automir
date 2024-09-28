@@ -855,6 +855,11 @@ a {
     color: #000000;
   }
 }
+@media (max-width: 500px) {
+  .our {
+    display: none;
+  }
+}
 .swiper-wrapper {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -924,6 +929,11 @@ body {
     line-height: 54px;
     text-align: center;
     color: #000000;
+  }
+}
+@media (max-width: 500px) {
+  .price {
+    display: none;
   }
 }
 .equipment {

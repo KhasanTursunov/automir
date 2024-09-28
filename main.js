@@ -1,44 +1,108 @@
 // 1-masala
-// function vaporcode(string) {
-//   return string
-//     .split("")
-//     .filter((e) => e.trim() !== "")
-//     .join("  ")
-//     .toUpperCase();
-// }
 
-
-
-// 2-masala
-// function points(games) {
-//   let score = 0;
-//   for (const i of games) {
-//     if (i[0] > i[2]) score += 3;
-//     if (i[0] === i[2]) score += 1;
+// class Labrador {
+//   constructor(name, age, gender, master) {
+//     this.name = name;
+//     this.age = age;
+//     this.gender = gender;
+//     this.species = "Labrador";
+//     this.legs = 4;
+//     this.size = "Large";
+//     this.master = master;
+//     this.loyal = true;
 //   }
-//   return score;
 // }
+
+// class Dogs {
+//   constructor(breed, age) {
+//     this.breed = breed;
+//     this.age = age;
+//   }
+
+//   bark() {
+//     return "Woof!";
+//   }
+
+//   getBreed() {
+//     return this.breed;
+//   }
+
+//   getAge() {
+//     return this.age;
+//   }
+// }
+
+// let dogss = new Dogs("Labrador", 3);
+
+
 
 
 // 3-masala
-// const sumAverage = (arr) => {
-//   let allAverage = 0;
-//   for (const subArr of arr) {
-//     let sum = 0;
-//     for (let item of subArr) {
-//       sum += item;
-//     }
-//     allAverage += sum / subArr.length;
-//   }
-//   return Math.round(allAverage);
-// };
+
+// function factory(x) {
+//   return function (arr) {
+//     return arr.map(num => num * x);
+//   };
+// }
+
+// const multiplyBy2 = factory(2);
+// console.log(multiplyBy2([1, 2, 3]));
+
+// const multiplyBy5 = factory(5);
+// console.log(multiplyBy5([1, 2, 3]));
 
 
 
 // 4-masala
-// function oddOne(arr) {
-//   for (const i of arr) {
-//     if (Math.abs(i) % 2 === 1) return arr.indexOf(i);
-//   }
-//   return -1;
+
+// String.prototype.myNewMethod = function () {
+//   return this.toUpperCase();
+// };
+
+// const myString = "abc";
+
+// console.log(myString.myNewMethod());
+
+
+// 7-masala
+
+// function pitchClass(note) {
+//   const pitchClasses = {
+//     'C': 0,  'C#': 1,
+//     'D': 2,  'D#': 3,
+//     'E': 4,
+//     'F': 5,  'F#': 6,
+//     'G': 7,  'G#': 8,
+//     'A': 9,  'A#': 10,
+//     'B': 11, 'Db': 1,
+//     'Eb': 3, 'Gb': 6,
+//     'Ab': 8, 'Bb': 10
+//   };
+
+//   return pitchClasses[note.toUpperCase()] || null;
 // }
+
+// 8-masala
+
+// function toCamelCase(str) {
+//   let result = "";
+//   let capitalizeNext = false;
+
+//   for (let char of str) {
+//     if (char === "-" || char === "_") {
+//       capitalizeNext = true;
+//     } else {
+//       if (capitalizeNext) {
+//         result += char.toUpperCase();
+//         capitalizeNext = false;
+//       } else {
+//         result += char;
+//       }
+//     }
+//   }
+
+//   return result;
+// }
+
+
+// chatGPT bor bolsoon (*_^);

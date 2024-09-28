@@ -73,3 +73,11 @@ text-align: center;
 color: $zero;
     }
     }
+
+
+    
+@media(max-width:500px){
+ .price{
+    display: none;
+ }   
+}

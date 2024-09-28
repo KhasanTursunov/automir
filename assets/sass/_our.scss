@@ -243,3 +243,10 @@ color: $zero;
 
 
 }
+
+
+@media(max-width:500px){
+ .our{
+    display: none;
+ }   
+}
